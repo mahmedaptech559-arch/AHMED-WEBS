@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 🔥 Navbar -->
+<nav class="navbar">
+    <div class="logo">MyStore</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Shop</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- 🔥 Contact Section -->
+<section class="contact-section">
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>Have questions about our products? Feel free to contact us anytime.</p>
+            <p>📧 support@mystore.com</p>
+            <p>📞 +92 300 1234567</p>
+        </div>
+
+        <form class="contact-form" onsubmit="return showMessage()">
+            <h2>Send Message</h2>
+
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+
+</section>
+
+<!-- 🔥 Footer -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- About -->
+        <div class="footer-box">
+            <h3>About MyStore</h3>
+            <p>MyStore is your go-to online shop for premium electronics, shoes, watches, and more. Quality products at best prices!</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Customer Care -->
+        <div class="footer-box">
+            <h3>Customer Care</h3>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">Shipping</a></li>
+                <li><a href="#">FAQs</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact & Newsletter -->
+        <div class="footer-box">
+            <h3>Contact & Newsletter</h3>
+            <p>📧 support@mystore.com</p>
+            <p>📞 +92 300 1234567</p>
+            <form class="newsletter-form" onsubmit="return false;">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <div class="social-icons">
+                <a href="#">🌐</a>
+                <a href="#">🐦</a>
+                <a href="#">📘</a>
+                <a href="#">📸</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 MyStore. All Rights Reserved.</p>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
